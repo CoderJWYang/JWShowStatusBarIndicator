@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A012F301B6D1D7F00D166FF /* JWShowStatusBarIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A012F2D1B6D1D7F00D166FF /* JWShowStatusBarIndicator.bundle */; };
+		9A012F311B6D1D7F00D166FF /* JWShowStatusBarIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A012F2F1B6D1D7F00D166FF /* JWShowStatusBarIndicator.m */; };
 		9A4EBEDD1B6D15C600BD58B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EBEDC1B6D15C600BD58B2 /* main.m */; };
 		9A4EBEE01B6D15C600BD58B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EBEDF1B6D15C600BD58B2 /* AppDelegate.m */; };
 		9A4EBEE31B6D15C600BD58B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EBEE21B6D15C600BD58B2 /* ViewController.m */; };
@@ -14,8 +16,6 @@
 		9A4EBEE81B6D15C600BD58B2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4EBEE71B6D15C600BD58B2 /* Images.xcassets */; };
 		9A4EBEEB1B6D15C600BD58B2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4EBEE91B6D15C600BD58B2 /* LaunchScreen.xib */; };
 		9A4EBEF71B6D15C600BD58B2 /* JWShowStatusBarIndicatorExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EBEF61B6D15C600BD58B2 /* JWShowStatusBarIndicatorExampleTests.m */; };
-		9A4EBF041B6D160400BD58B2 /* JWShowStatusBarIndicator.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9A4EBF011B6D160400BD58B2 /* JWShowStatusBarIndicator.bundle */; };
-		9A4EBF051B6D160400BD58B2 /* JWShowStatusBarIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4EBF031B6D160400BD58B2 /* JWShowStatusBarIndicator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9A012F2D1B6D1D7F00D166FF /* JWShowStatusBarIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JWShowStatusBarIndicator.bundle; sourceTree = "<group>"; };
+		9A012F2E1B6D1D7F00D166FF /* JWShowStatusBarIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWShowStatusBarIndicator.h; sourceTree = "<group>"; };
+		9A012F2F1B6D1D7F00D166FF /* JWShowStatusBarIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWShowStatusBarIndicator.m; sourceTree = "<group>"; };
 		9A4EBED71B6D15C600BD58B2 /* JWShowStatusBarIndicatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWShowStatusBarIndicatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4EBEDB1B6D15C600BD58B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4EBEDC1B6D15C600BD58B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,9 +45,6 @@
 		9A4EBEF01B6D15C600BD58B2 /* JWShowStatusBarIndicatorExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWShowStatusBarIndicatorExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4EBEF51B6D15C600BD58B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A4EBEF61B6D15C600BD58B2 /* JWShowStatusBarIndicatorExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWShowStatusBarIndicatorExampleTests.m; sourceTree = "<group>"; };
-		9A4EBF011B6D160400BD58B2 /* JWShowStatusBarIndicator.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = JWShowStatusBarIndicator.bundle; sourceTree = "<group>"; };
-		9A4EBF021B6D160400BD58B2 /* JWShowStatusBarIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JWShowStatusBarIndicator.h; sourceTree = "<group>"; };
-		9A4EBF031B6D160400BD58B2 /* JWShowStatusBarIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JWShowStatusBarIndicator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +65,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A012F2C1B6D1D7F00D166FF /* JWShowStatusBarIndicator */ = {
+			isa = PBXGroup;
+			children = (
+				9A012F2D1B6D1D7F00D166FF /* JWShowStatusBarIndicator.bundle */,
+				9A012F2E1B6D1D7F00D166FF /* JWShowStatusBarIndicator.h */,
+				9A012F2F1B6D1D7F00D166FF /* JWShowStatusBarIndicator.m */,
+			);
+			name = JWShowStatusBarIndicator;
+			path = ../../JWShowStatusBarIndicator;
+			sourceTree = "<group>";
+		};
 		9A4EBECE1B6D15C600BD58B2 = {
 			isa = PBXGroup;
 			children = (
@@ -86,7 +97,7 @@
 		9A4EBED91B6D15C600BD58B2 /* JWShowStatusBarIndicatorExample */ = {
 			isa = PBXGroup;
 			children = (
-				9A4EBF001B6D160400BD58B2 /* JWShowStatusBarIndicator */,
+				9A012F2C1B6D1D7F00D166FF /* JWShowStatusBarIndicator */,
 				9A4EBEDE1B6D15C600BD58B2 /* AppDelegate.h */,
 				9A4EBEDF1B6D15C600BD58B2 /* AppDelegate.m */,
 				9A4EBEE11B6D15C600BD58B2 /* ViewController.h */,
@@ -123,17 +134,6 @@
 				9A4EBEF51B6D15C600BD58B2 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9A4EBF001B6D160400BD58B2 /* JWShowStatusBarIndicator */ = {
-			isa = PBXGroup;
-			children = (
-				9A4EBF011B6D160400BD58B2 /* JWShowStatusBarIndicator.bundle */,
-				9A4EBF021B6D160400BD58B2 /* JWShowStatusBarIndicator.h */,
-				9A4EBF031B6D160400BD58B2 /* JWShowStatusBarIndicator.m */,
-			);
-			name = JWShowStatusBarIndicator;
-			path = ../../../../JWShowStatusBarIndicatorExample/JWShowStatusBarIndicatorExample/JWShowStatusBarIndicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,7 +219,7 @@
 				9A4EBEE61B6D15C600BD58B2 /* Main.storyboard in Resources */,
 				9A4EBEEB1B6D15C600BD58B2 /* LaunchScreen.xib in Resources */,
 				9A4EBEE81B6D15C600BD58B2 /* Images.xcassets in Resources */,
-				9A4EBF041B6D160400BD58B2 /* JWShowStatusBarIndicator.bundle in Resources */,
+				9A012F301B6D1D7F00D166FF /* JWShowStatusBarIndicator.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,7 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4EBEE31B6D15C600BD58B2 /* ViewController.m in Sources */,
-				9A4EBF051B6D160400BD58B2 /* JWShowStatusBarIndicator.m in Sources */,
+				9A012F311B6D1D7F00D166FF /* JWShowStatusBarIndicator.m in Sources */,
 				9A4EBEE01B6D15C600BD58B2 /* AppDelegate.m in Sources */,
 				9A4EBEDD1B6D15C600BD58B2 /* main.m in Sources */,
 			);
@@ -435,6 +435,7 @@
 				9A4EBEFC1B6D15C600BD58B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A4EBEFD1B6D15C600BD58B2 /* Build configuration list for PBXNativeTarget "JWShowStatusBarIndicatorExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				9A4EBEFF1B6D15C600BD58B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
